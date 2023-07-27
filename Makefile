@@ -1,6 +1,6 @@
 VERSION = 4
 PATCHLEVEL = 9
-SUBLEVEL = 327
+SUBLEVEL = 337
 EXTRAVERSION =
 NAME = Roaring Lionus
 
@@ -307,6 +307,7 @@ HOSTCXX      = clang++
 else
 HOSTCC       = gcc
 HOSTCXX      = g++
+endif
 
 HOSTCFLAGS   := -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89
 HOSTCXXFLAGS = -O2
