@@ -216,7 +216,6 @@ static void sugov_get_util(unsigned long *util, unsigned long *max, int cpu)
 static void sugov_set_iowait_boost(struct sugov_cpu *sg_cpu, u64 time,
 				   unsigned int flags)
 {
-	if (is_battery_saver_on())
 
 	struct sugov_policy *sg_policy = sg_cpu->sg_policy;
 
